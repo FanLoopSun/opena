@@ -85,61 +85,18 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
-        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
-        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443"
-        "cf-cname.xingpingcn.top:443,www.mfyx.cn:443,tt.78607323.xyz:443,cdn.7zz.cn:443,"
-        "cf.468123.xyz:443,coreweave.com:443,staticdelivery.nexusmods.com:443,cf.877774.xyz:443,"
-        "saas.sin.fan:443,kickstarter.com:443,store.ubi.com:443,www.crazygames.fr:443,"
-        "openai.com:443,securecircle.com:443,funko.com:443,www.jp.pima.gov:443,"
-        "prizepicks.com:443,dongbanghong.com:443,www.mastervolt.com:443,www.sofi.com:443,"
-        "www.vmware.com:443,m.iyf.tv:443,egov.uscis.gov:443,www.sage.com:443,"
-        "53.fs1.hubspotusercontent-na1.net:443,www.bis.gov:443,login.rockwellautomation.com:443,linear.app:443,"
-        "dianomi.com:443,www.sloomb.com:443,cf.254301.xyz:443,spring.io:443,"
-        "www.giannidelprete.it:443,www.wto.org:443,www.deepl.com:443,constitution.congress.gov:443,"
-        "guide.for.edu.sg:443,academy.7shifts.com:443,cf.xreak.top:443,stores.staples.com:443,"
-        "www.leics.police.uk:443,wppaunz.com:443,thebeat.gehealthcare.com:443,serviceshub.samsclub.com:443,"
-        "www.broadcom.com:443,www.zendesk.com:443,www.gov.il:443,www.carousell.sg:443,"
-        "www.shopify.com:443,uspto.gov:443,versantstore.pearson.com:443,ahrefs.com:443,"
-        "www.akasantech.com:443,jellyfin.roddy.eu.cc:443,mfa.gov.ua:443,www.vastnovel.com:443,"
-        "zen-browser.app:443,www.people.inc:443,cf.nyanya.moe:443,shen6011.pages.dev:443,"
-        "vps.cheng2001.top:443,cf.1o.ee:443,99.co:443,dash.domain.digitalplat.org:443,"
-        "47bt.com:443,appstorrent.ru:443,hostinger.com:443,assets.bizclikmedia.net:443,"
-        "fn.130519.xyz:443,duckybot.xyz:443,dogechain.info:443,mogas.com:443,"
-        "i.pages.dev:443,api.producthunt.com:443,aimagazine.com:443,s.bookcdn.com:443,"
-        "www.whoer.net:443,www.nomios.com:443,mvnrepository.com:443,liziye.pages.dev:443,"
-        "flightradar24.com:443,codexradar.com:443,crinacle.com:443,hitcon.org:443,"
-        "s.ee:443,unpkg.com:443,www.proxyrarbg.to:443,chrono24.com:443,"
-        "kwiat.com:443,dx.doi.org:443,zoominfo.com:443,ooo.0o0.ooo:443,"
-        "de.102198.xyz:443,www.chess.com:443,w3.org:443,cdnjs.com:443,"
-        "absen.com:443,webn.cc:443,leawo.org:443,www.scayle.com:443,"
-        "linkvertise.com:443,snipaste1.speedip.eu.org:443,www.transgenderdor.org:443,rankmath.com:443,"
-        "www.ox.ac.uk:443,www.ventusky.com:443,alternativeto.net:443,icook.tw:443,"
-        "op.chinwa.eu.cc:443,mokeedev.com:443,zabc.net:443,yong.m123.org:443,"
-        "api-scout.reflexapi.net:443,www.stayaka.com:443,cdnjs.loli.net:443,xiaoqi.de:443,"
-        "store.rg-adguard.net:443,kick.com:443,www.petronaftco.com:443,lose.edu.eu.org:443,"
-        "www.jsdelivr.com:443,autz.org:443,uptimerobot.com:443,www.trumpstruth.org:443,"
-        "esm.run:443,cdn.tzpro.xyz:443,hentaiverse.org:443,carpt.net:443,"
-        "glitterx.cloud:443,deepseek.com.hk:443,www.owlgraphic.com:443,yong.880805.xyz:443,"
-        "encryptedsni.com:443,cf.0sm.com:443,img.dexbug.com:443,griditapp.com:443,"
-        "www2.rarbggo.to:443,www.botafogo.com.br:443,bizclikmedia.com:443,jojolsj.jojojing.top:443,"
-        "servo.org:443,i.111666.best:443,kaspa.stream:443,easylist.to:443,"
-        "cloudflare.idc.rocks:443,www.whatismyip.com:443,www.itedev.com:443,ncdc.gov.ng:443,"
-        "sharray.net:443,www.government.is:443,i.jpg.dog:443,brandstudio.com:443,"
-        "xn--b6gac.eu.org:443,nodeloc.cc:443,i.pixiv.re:443,gateway.ipfsscan.io:443,"
-        "emos.prlo.de:443,seo.07yue.com:443,i.pixiv.nl:443,wallpaperflare.com:443,"
-        "cozylife.app:443,mrmacintosh.com:443,img.imgdd.com:443,cn.vuejs.org:443,"
-        "rarbg.proxyninja.org:443,emos.best:443,vegasgeek.com:443,helium.computer:443,"
-        "cdn.violet.vin:443,sci-hub.al:443,ippure.com:443,iili.io:443,"
-        "hashi.sbs:443,dl.macked.app:443,cm.edu.kg:443,hy.aaw.qzz.io:443,"
-        "app.rebase.tv:443,kernelsu.com:443,infinitemac.org:443,www.cancilleria.gov.co:443,"
-        "sanctuarywealth.com:443,upfile.live:443",
+        "shen6011.pages.dev:443,hostinger.com:443,mogas.com:443,i.pages.dev:443,"
+        "api.producthunt.com:443,s.bookcdn.com:443,liziye.pages.dev:443,flightradar24.com:443,"
+        "unpkg.com:443,chrono24.com:443,zoominfo.com:443,www.chess.com:443,"
+        "w3.org:443,absen.com:443,webn.cc:443,leawo.org:443,"
+        "www.scayle.com:443,linkvertise.com:443,alternativeto.net:443,zabc.net:443,"
+        "kick.com:443",
     ).split(",")
     if h.strip()
 ]
 
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
-OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443","https://cf.090227.xyz/cu?port=443","https://cf.090227.xyz/cmcc?ips=8&port=443")
+OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443")
 
 NODES_URL = os.environ.get("NODES_URL", "https://FanLoopSun.github.io/opena/nodes.txt")
 
